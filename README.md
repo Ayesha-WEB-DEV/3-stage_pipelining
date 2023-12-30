@@ -67,6 +67,15 @@ This project implements a three-stage pipelined processor aimed at demonstrating
 2. **Input Test Cases:** Create your test case to observe hazard handling and CSR functionalities.
 3. **Observe Execution:** Analyze how the processor manages hazards and utilizes CSR during instruction processing.
 
+### Compilation
+RTL can be compiled with the command:
+
+**vlog names_of_all_system_verilog_files**
+
+or simply:
+
+vlog *.sv
+
 ## Pipelining Diagram with hazards and CSR 
 ![Three-Stage Pipelining](images/pipeline_diagram.jpg)
 
